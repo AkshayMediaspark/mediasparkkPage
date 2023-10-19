@@ -7,6 +7,8 @@ const passward = process.env.mongodb_passward
 
 
 
+
+
 const mongoconnect = async ()=>{
     await mongoose.connect(`mongodb+srv://akshaymediaspark:${passward}@cluster0.jsxnsvm.mongodb.net/?retryWrites=true&w=majority`)
 
